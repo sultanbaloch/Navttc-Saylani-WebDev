@@ -1,0 +1,42 @@
+/**
+ * Don't change any of the properties. Only replace anywhere it says '**selector goes here**' with the appropriate selector
+*/
+
+.red,  h1{
+    background-color: red;
+  }
+  
+  .blue {
+    background-color: blue
+  }
+  
+  body {
+    background-color: purple;
+  }
+  
+  .box {
+    float: left;
+    width: 100px;
+    height: 100px;
+  }
+  
+  header>h1,h1 {
+    border: solid 4px green;
+  }
+  
+  .box,input {
+    border: solid 2px black;
+    border-radius: 10px;
+  }
+  
+  header {
+    border: solid 3px gray;
+    border-radius: 5px;
+  }
+  
+  /* This selector should stay here */
+  form {
+    clear: left;
+  }
+  
+  
